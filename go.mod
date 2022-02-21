@@ -7,7 +7,8 @@ require (
 	github.com/docker/docker v1.13.1 // indirect
 	github.com/fatih/color v1.10.0 // indirect
 	github.com/pkg/errors v0.9.1
-	github.com/pulumi/pulumi v1.12.0
+	github.com/pulumi/pulumi v1.14.1
+	github.com/pulumi/pulumi/pkg v1.14.1
 	github.com/sethgrid/pester v1.1.0
 	github.com/sourcegraph/sourcegraph/enterprise/dev/ci/images v0.0.0-20220218231436-149b447d7b61
 	github.com/sourcegraph/update-docker-tags v0.10.0
