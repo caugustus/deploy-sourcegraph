@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: prometheus
-        image: index.docker.io/sourcegraph/prometheus:insiders@sha256:1c7a188d2526b6fcf86f9b718c763efdb838d88e5737f507482720a89421127b
+        image: index.docker.io/sourcegraph/prometheus:insiders@sha256:ca702b78349f8e28014c7a57166d7788aed6f5bb6b30c8ed48e804bb7afe81b5
         terminationMessagePolicy: FallbackToLogsOnError
         readinessProbe:
           httpGet:

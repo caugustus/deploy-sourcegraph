@@ -33,7 +33,7 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: metadata.name
-        image: index.docker.io/sourcegraph/worker:insiders@sha256:8a5b1d9c95c5a4178aa8ae3458df282e6bfcb72159d80409845e06033c9739f3
+        image: index.docker.io/sourcegraph/worker:insiders@sha256:2c131f4969f604d15480bb74c9bd7806e59f7546ee2f5355678836382b4cd29b
         terminationMessagePolicy: FallbackToLogsOnError
         livenessProbe:
           httpGet:

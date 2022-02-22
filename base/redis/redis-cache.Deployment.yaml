@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: redis-cache
-        image: index.docker.io/sourcegraph/redis-cache:insiders@sha256:073d99c618c412e6924a4ab2cbca55f0e14e409a8f0dcdb02b1c9b37c3c67696
+        image: index.docker.io/sourcegraph/redis-cache:insiders@sha256:b75b5858c891d3e47cb728ca090e2cac6360c22ea3b48ca838520c3c4dabf477
         terminationMessagePolicy: FallbackToLogsOnError
         livenessProbe:
           initialDelaySeconds: 30
